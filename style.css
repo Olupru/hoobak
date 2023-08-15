@@ -21,6 +21,7 @@ body{
 h1,h2,h3,h4,h5,h6{
     color: #fff;
     font-weight: lighter;
+    font-size: 30px;
 }
 
 p,li{
@@ -40,7 +41,7 @@ header nav{
 
 .navbar a{
     text-decoration: none;
-    color: white;
+    color: lightblue;
     padding-left: 30px;
     transition: all 0.3s ease-out;
 }
@@ -106,7 +107,7 @@ header nav .navbar ul li:not(:last-child){
     color: rgba(255, 255, 255, 0.915);
 }
 
-.hero{
+.promo{
     padding: 0px 0px 100px 100px;
     display: flex;
     justify-content: space-between;
@@ -196,7 +197,9 @@ header nav .navbar ul li:not(:last-child){
 }
 
 .button h3{
-    color: black;
+    color: rgb(99, 73, 73);
+    width: 10rem;
+    margin-left: -25px;
 }
 
 .business{
